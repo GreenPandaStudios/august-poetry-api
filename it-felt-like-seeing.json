@@ -1,6 +1,6 @@
 {
-  title: "it felt like seeing",
-  body: [
+  "title": "it felt like seeing",
+  "body": [
     "i think you mattered",
     "because most of life happens before or after the parts that matter",
     "and when i think about my life",
@@ -10,6 +10,6 @@
     "and suddenly life was split",
     "into before",
     "and after",
-    "you.",
+    "you."
   ]
-  }
+}
