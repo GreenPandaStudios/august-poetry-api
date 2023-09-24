@@ -12,7 +12,7 @@ var searchMap = {};
 
 sections.forEach(section => {
     const [title, body] = section.split('[body]\r\n');
-    if (title !== "") {
+    if (title != null && body != null) {
         const titleText = title.trim();
         const bodyText = body.trim().split('\r\n');
 
