@@ -14,7 +14,7 @@ sections.forEach(section => {
     const [title, body] = section.split('[body]\r\n');
     if (title != null && body != null) {
         const titleText = title.trim();
-        const bodyText = body.trim().split('\r\n');
+        const bodyText = body.split('\r\n');
 
         // Create JSON data
         const jsonData = {
