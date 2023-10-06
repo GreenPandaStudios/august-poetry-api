@@ -39,3 +39,4 @@ sections.forEach(section => {
 
 //write the search map file
 fs.writeFileSync("searchMap.json", JSON.stringify(searchMap));
+console.log("Done");
