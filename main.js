@@ -9,13 +9,14 @@ const sections = inputText.split('[title]\r\n');
 // Process each section
 
 var searchMap = {};
+var bodySearchMap = {};
 
 sections.forEach(section => {
     const [title, body] = section.split('[body]\r\n');
     if (title != null && body != null) {
         const titleText = title.trim();
         const bodyText = body.split('\r\n');
-
+        
         // Create JSON data
         const jsonData = {
             title: titleText,
@@ -32,6 +33,7 @@ sections.forEach(section => {
         filename = filename + '.json';
 
         searchMap[filename] = titleText;
+        bodySearchMap[filename] = bodyText;
         // Write the JSON data to a file
         fs.writeFileSync("./data/" + filename, JSON.stringify(jsonData, null, 2));
     }
@@ -39,4 +41,5 @@ sections.forEach(section => {
 
 //write the search map file
 fs.writeFileSync("searchMap.json", JSON.stringify(searchMap));
+fs.writeFileSync("bodySearchMap.json", JSON.stringify(bodySearchMap));
 console.log("Done");
