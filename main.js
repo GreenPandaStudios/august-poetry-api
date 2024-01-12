@@ -16,13 +16,13 @@ sections.forEach(section => {
     if (title != null && body != null) {
         const titleText = title.trim();
         const bodyText = body.split('\r\n');
-        
+        bodyText.pop()
         // Create JSON data
         const jsonData = {
             title: titleText,
             body: bodyText
         };
-
+        
         // Generate the output filename
 
         var filename = titleText.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-');
