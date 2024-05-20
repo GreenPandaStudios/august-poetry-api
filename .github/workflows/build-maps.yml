@@ -21,8 +21,14 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Git Status
+        run: git status
+
       - name: Run JavaScript Program
         run: node main.js
+
+      - name: Git Status
+        run: git status
 
       - name: Commit Changes
         run: |
