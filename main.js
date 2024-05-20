@@ -4,7 +4,7 @@ const fs = require('fs');
 const inputText = fs.readFileSync('rawData.txt', 'utf8');
 
 // Split the text into sections
-const sections = inputText.split('[title]\r\n');
+const sections = inputText.split('[title]\n');
 
 // Process each section
 
@@ -12,10 +12,10 @@ var searchMap = {};
 var bodySearchMap = {};
 
 sections.forEach(section => {
-    const [title, body] = section.split('[body]\r\n');
+    const [title, body] = section.split('[body]\n');
     if (title != null && body != null) {
         const titleText = title.trim();
-        const bodyText = body.split('\r\n');
+        const bodyText = body.split('\n');
         bodyText.pop()
         // Create JSON data
         const jsonData = {
