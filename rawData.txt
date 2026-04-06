@@ -1,5 +1,7 @@
 [title]
 Day One
+[date]
+4/6/2026
 [body]
 I saw
 one
@@ -8,10 +10,14 @@ things today
 that I wanted to share with you.
 [title]
 Day Zero
+[date]
+4/5/2026
 [body]
 fuck.
 [title]
 Kinda okay
+[date]
+3/6/2026
 [body]
 I'm not particularly interested
 In who I am.
@@ -19,6 +25,8 @@ Maybe it's a sign
 of coming change.
 [title]
 Somewhere else
+[date]
+9/1/2025
 [body]
 ​Moving.
 Or, moving in.
@@ -68,12 +76,16 @@ strangers will drive past
 on their way to somewhere else.
 [title]
 Fri, April 25th 2025
+[date]
+4/25/2025
 [body]
 I must have run
 out
 of disappointing things.
 [title]
 December
+[date]
+12/12/2024
 [body]
 to be quiet.
 to be cold.
