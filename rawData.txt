@@ -1,4 +1,12 @@
 [title]
+Day Two
+[date]
+4/7/2026
+[body]
+I feel it
+in the Tuesday habits
+that are hard to quit.
+[title]
 Day One
 [date]
 4/6/2026
